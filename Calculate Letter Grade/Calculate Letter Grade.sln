@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate Letter Grade", "Calculate Letter Grade.csproj", "{4AF15E47-BF89-4746-A87E-B9D0722D7D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF15E47-BF89-4746-A87E-B9D0722D7D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF15E47-BF89-4746-A87E-B9D0722D7D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF15E47-BF89-4746-A87E-B9D0722D7D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF15E47-BF89-4746-A87E-B9D0722D7D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C9A8CCD-9ABC-4CFF-8288-C977D266B43F}
+	EndGlobalSection
+EndGlobal
