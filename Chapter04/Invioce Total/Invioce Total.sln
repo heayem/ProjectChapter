@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invioce Total", "Invioce Total.csproj", "{96D70A99-3FD1-4223-9E75-432C1DA29CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D70A99-3FD1-4223-9E75-432C1DA29CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D70A99-3FD1-4223-9E75-432C1DA29CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D70A99-3FD1-4223-9E75-432C1DA29CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D70A99-3FD1-4223-9E75-432C1DA29CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DB9D55B-17C4-409D-BDA6-DD7FE23E7FF2}
+	EndGlobalSection
+EndGlobal
