@@ -1,0 +1,10 @@
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\bin\Debug\FutureValue.exe.config
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\bin\Debug\FutureValue.exe
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\bin\Debug\FutureValue.pdb
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.csproj.AssemblyReference.cache
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.Form1.resources
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.cache
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.exe
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.pdb
