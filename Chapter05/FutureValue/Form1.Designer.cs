@@ -34,9 +34,9 @@ namespace FutureValue
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtMonthlyInvestment = new System.Windows.Forms.TextBox();
-            this.textYearlyInterestRate = new System.Windows.Forms.TextBox();
-            this.textNumberOfYears = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtYearlyInterestRate = new System.Windows.Forms.TextBox();
+            this.txtNumberOfYears = new System.Windows.Forms.TextBox();
+            this.txtFutureValue = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -84,27 +84,27 @@ namespace FutureValue
             this.txtMonthlyInvestment.Size = new System.Drawing.Size(100, 20);
             this.txtMonthlyInvestment.TabIndex = 0;
             // 
-            // textYearlyInterestRate
+            // txtYearlyInterestRate
             // 
-            this.textYearlyInterestRate.Location = new System.Drawing.Point(172, 92);
-            this.textYearlyInterestRate.Name = "textYearlyInterestRate";
-            this.textYearlyInterestRate.Size = new System.Drawing.Size(100, 20);
-            this.textYearlyInterestRate.TabIndex = 1;
+            this.txtYearlyInterestRate.Location = new System.Drawing.Point(172, 92);
+            this.txtYearlyInterestRate.Name = "txtYearlyInterestRate";
+            this.txtYearlyInterestRate.Size = new System.Drawing.Size(100, 20);
+            this.txtYearlyInterestRate.TabIndex = 1;
             // 
-            // textNumberOfYears
+            // txtNumberOfYears
             // 
-            this.textNumberOfYears.Location = new System.Drawing.Point(172, 140);
-            this.textNumberOfYears.Name = "textNumberOfYears";
-            this.textNumberOfYears.Size = new System.Drawing.Size(100, 20);
-            this.textNumberOfYears.TabIndex = 2;
+            this.txtNumberOfYears.Location = new System.Drawing.Point(172, 140);
+            this.txtNumberOfYears.Name = "txtNumberOfYears";
+            this.txtNumberOfYears.Size = new System.Drawing.Size(100, 20);
+            this.txtNumberOfYears.TabIndex = 2;
             // 
-            // textBox4
+            // txtFutureValue
             // 
-            this.textBox4.Location = new System.Drawing.Point(172, 186);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.txtFutureValue.Location = new System.Drawing.Point(172, 186);
+            this.txtFutureValue.Name = "txtFutureValue";
+            this.txtFutureValue.ReadOnly = true;
+            this.txtFutureValue.Size = new System.Drawing.Size(100, 20);
+            this.txtFutureValue.TabIndex = 7;
             // 
             // btnCalculate
             // 
@@ -114,6 +114,7 @@ namespace FutureValue
             this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnExit
             // 
@@ -123,17 +124,19 @@ namespace FutureValue
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 
+            this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 280);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalculate);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textNumberOfYears);
-            this.Controls.Add(this.textYearlyInterestRate);
+            this.Controls.Add(this.txtFutureValue);
+            this.Controls.Add(this.txtNumberOfYears);
+            this.Controls.Add(this.txtYearlyInterestRate);
             this.Controls.Add(this.txtMonthlyInvestment);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -153,9 +156,9 @@ namespace FutureValue
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtMonthlyInvestment;
-        private System.Windows.Forms.TextBox textYearlyInterestRate;
-        private System.Windows.Forms.TextBox textNumberOfYears;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtYearlyInterestRate;
+        private System.Windows.Forms.TextBox txtNumberOfYears;
+        private System.Windows.Forms.TextBox txtFutureValue;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Button btnExit;
     }
