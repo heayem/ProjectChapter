@@ -8,3 +8,13 @@ E:\Year3\.NET\HomeWrokLesson\Chapter 02\StudentPopulation\obj\Debug\StudentPopul
 E:\Year3\.NET\HomeWrokLesson\Chapter 02\StudentPopulation\obj\Debug\StudentPopulation.csproj.CoreCompileInputs.cache
 E:\Year3\.NET\HomeWrokLesson\Chapter 02\StudentPopulation\obj\Debug\StudentPopulation.exe
 E:\Year3\.NET\HomeWrokLesson\Chapter 02\StudentPopulation\obj\Debug\StudentPopulation.pdb
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\bin\Debug\StudentPopulation.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\bin\Debug\StudentPopulation.exe
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\bin\Debug\StudentPopulation.pdb
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.frmStudentPopulatio.resources
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.exe
+E:\Year3\.NET\ProjectChapter\Chapter02\StudentPopulation\obj\Debug\StudentPopulation.pdb

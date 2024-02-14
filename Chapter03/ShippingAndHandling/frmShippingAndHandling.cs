@@ -19,16 +19,9 @@ namespace ShippingAndHandling
 
         private void btnCalculateGrandTotal_Click(object sender, EventArgs e)
         {
-            if (decimal.TryParse(txtOrderTotal.Text, out decimal orderTotal))
-            {
+            decimal orderTotal = Convert.ToDecimal(txtOrderTotal.Text);
                 orderTotal += 10;
-
                 txtGrandeTotal.Text = orderTotal.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Please enter a valid Order Total .");
-            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)

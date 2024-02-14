@@ -8,3 +8,13 @@ E:\Year3\.NET\HomeWrokLesson\Chapter 02\ShippingAndHandling\obj\Debug\ShippingAn
 E:\Year3\.NET\HomeWrokLesson\Chapter 02\ShippingAndHandling\obj\Debug\ShippingAndHandling.csproj.CoreCompileInputs.cache
 E:\Year3\.NET\HomeWrokLesson\Chapter 02\ShippingAndHandling\obj\Debug\ShippingAndHandling.exe
 E:\Year3\.NET\HomeWrokLesson\Chapter 02\ShippingAndHandling\obj\Debug\ShippingAndHandling.pdb
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\bin\Debug\ShippingAndHandling.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\bin\Debug\ShippingAndHandling.exe
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\bin\Debug\ShippingAndHandling.pdb
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.frmShippingAndHandling.resources
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.exe
+E:\Year3\.NET\ProjectChapter\Chapter02\ShippingAndHandling\obj\Debug\ShippingAndHandling.pdb

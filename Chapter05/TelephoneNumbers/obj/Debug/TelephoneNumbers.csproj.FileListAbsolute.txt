@@ -1,0 +1,10 @@
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\bin\Debug\TelephoneNumbers.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\bin\Debug\TelephoneNumbers.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\bin\Debug\TelephoneNumbers.pdb
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.Form1.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\TelephoneNumbers\obj\Debug\TelephoneNumbers.pdb

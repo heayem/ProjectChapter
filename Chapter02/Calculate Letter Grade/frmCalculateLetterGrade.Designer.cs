@@ -31,10 +31,10 @@ namespace Calculate_Letter_Grade
         {
             this.lblNumericGrade = new System.Windows.Forms.Label();
             this.lblLetterGrade = new System.Windows.Forms.Label();
-            this.lblLetterGradeShow = new System.Windows.Forms.Label();
             this.txtNumericGrade = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnCalculateLetterGrade = new System.Windows.Forms.Button();
+            this.lblLetterGradeShow = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblNumericGrade
@@ -57,22 +57,13 @@ namespace Calculate_Letter_Grade
             this.lblLetterGrade.Text = "Letter Grade";
             this.lblLetterGrade.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblLetterGradeShow
-            // 
-            this.lblLetterGradeShow.BackColor = System.Drawing.SystemColors.Window;
-            this.lblLetterGradeShow.Location = new System.Drawing.Point(211, 108);
-            this.lblLetterGradeShow.Name = "lblLetterGradeShow";
-            this.lblLetterGradeShow.Size = new System.Drawing.Size(103, 20);
-            this.lblLetterGradeShow.TabIndex = 4;
-            this.lblLetterGradeShow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // txtNumericGrade
             // 
-            this.txtNumericGrade.BackColor = System.Drawing.SystemColors.Window;
+            this.txtNumericGrade.BackColor = System.Drawing.Color.White;
             this.txtNumericGrade.Location = new System.Drawing.Point(214, 53);
             this.txtNumericGrade.Name = "txtNumericGrade";
             this.txtNumericGrade.Size = new System.Drawing.Size(100, 20);
-            this.txtNumericGrade.TabIndex = 0;
+            this.txtNumericGrade.TabIndex = 1;
             this.txtNumericGrade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnExit
@@ -92,9 +83,19 @@ namespace Calculate_Letter_Grade
             this.btnCalculateLetterGrade.Location = new System.Drawing.Point(128, 178);
             this.btnCalculateLetterGrade.Name = "btnCalculateLetterGrade";
             this.btnCalculateLetterGrade.Size = new System.Drawing.Size(63, 64);
-            this.btnCalculateLetterGrade.TabIndex = 1;
+            this.btnCalculateLetterGrade.TabIndex = 2;
             this.btnCalculateLetterGrade.Text = "&Calculate Letter Grade";
             this.btnCalculateLetterGrade.UseVisualStyleBackColor = false;
+            // 
+            // lblLetterGradeShow
+            // 
+            this.lblLetterGradeShow.BackColor = System.Drawing.Color.White;
+            this.lblLetterGradeShow.Location = new System.Drawing.Point(214, 115);
+            this.lblLetterGradeShow.Name = "lblLetterGradeShow";
+            this.lblLetterGradeShow.Size = new System.Drawing.Size(100, 20);
+            this.lblLetterGradeShow.TabIndex = 5;
+            this.lblLetterGradeShow.TabStop = false;
+            this.lblLetterGradeShow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmCalculateLetterGrade
             // 
@@ -103,10 +104,10 @@ namespace Calculate_Letter_Grade
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(437, 298);
+            this.Controls.Add(this.lblLetterGradeShow);
             this.Controls.Add(this.btnCalculateLetterGrade);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtNumericGrade);
-            this.Controls.Add(this.lblLetterGradeShow);
             this.Controls.Add(this.lblLetterGrade);
             this.Controls.Add(this.lblNumericGrade);
             this.Name = "frmCalculateLetterGrade";
@@ -123,10 +124,10 @@ namespace Calculate_Letter_Grade
 
         private System.Windows.Forms.Label lblNumericGrade;
         private System.Windows.Forms.Label lblLetterGrade;
-        private System.Windows.Forms.Label lblLetterGradeShow;
         private System.Windows.Forms.TextBox txtNumericGrade;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnCalculateLetterGrade;
+        private System.Windows.Forms.TextBox lblLetterGradeShow;
     }
 }
 

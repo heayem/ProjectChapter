@@ -55,7 +55,7 @@ namespace StudentPopulation
             this.txtAnnualGrowthRate.Location = new System.Drawing.Point(271, 91);
             this.txtAnnualGrowthRate.Name = "txtAnnualGrowthRate";
             this.txtAnnualGrowthRate.Size = new System.Drawing.Size(155, 20);
-            this.txtAnnualGrowthRate.TabIndex = 1;
+            this.txtAnnualGrowthRate.TabIndex = 2;
             this.txtAnnualGrowthRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtNumberOfStudentsToday
@@ -63,7 +63,7 @@ namespace StudentPopulation
             this.txtNumberOfStudentsToday.Location = new System.Drawing.Point(271, 58);
             this.txtNumberOfStudentsToday.Name = "txtNumberOfStudentsToday";
             this.txtNumberOfStudentsToday.Size = new System.Drawing.Size(155, 20);
-            this.txtNumberOfStudentsToday.TabIndex = 0;
+            this.txtNumberOfStudentsToday.TabIndex = 1;
             this.txtNumberOfStudentsToday.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
@@ -83,6 +83,7 @@ namespace StudentPopulation
             this.label3.Size = new System.Drawing.Size(84, 13);
             this.label3.TabIndex = 18;
             this.label3.Text = "Number of years";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
@@ -92,6 +93,7 @@ namespace StudentPopulation
             this.label2.Size = new System.Drawing.Size(96, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Annual growth rate";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label1
             // 
@@ -99,8 +101,9 @@ namespace StudentPopulation
             this.label1.Location = new System.Drawing.Point(66, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 13);
-            this.label1.TabIndex = 14;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Number of students today ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnExit
             // 
@@ -117,7 +120,7 @@ namespace StudentPopulation
             this.btnProjectStudentPopulation.Location = new System.Drawing.Point(153, 234);
             this.btnProjectStudentPopulation.Name = "btnProjectStudentPopulation";
             this.btnProjectStudentPopulation.Size = new System.Drawing.Size(76, 49);
-            this.btnProjectStudentPopulation.TabIndex = 3;
+            this.btnProjectStudentPopulation.TabIndex = 4;
             this.btnProjectStudentPopulation.Text = "&Project Student Population";
             this.btnProjectStudentPopulation.UseVisualStyleBackColor = true;
             // 
@@ -126,7 +129,7 @@ namespace StudentPopulation
             this.txtNumberOfYears.Location = new System.Drawing.Point(271, 125);
             this.txtNumberOfYears.Name = "txtNumberOfYears";
             this.txtNumberOfYears.Size = new System.Drawing.Size(155, 20);
-            this.txtNumberOfYears.TabIndex = 2;
+            this.txtNumberOfYears.TabIndex = 3;
             this.txtNumberOfYears.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // frmStudentPopulatio
@@ -148,7 +151,7 @@ namespace StudentPopulation
             this.Controls.Add(this.btnProjectStudentPopulation);
             this.Name = "frmStudentPopulatio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Student Populatio";
+            this.Text = "Student Population";
             this.ResumeLayout(false);
             this.PerformLayout();
 
