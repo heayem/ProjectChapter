@@ -23,15 +23,9 @@ namespace Calculate_Letter_Grade
 
         private void btnCalculateLetterGrade_Click(object sender, EventArgs e)
         {
-            if (decimal.TryParse(txtNumericGrade.Text, out decimal numericGrade))
-            {
+            decimal numericGrade = Convert.ToDecimal(txtNumericGrade.Text);
                 numericGrade += 10;
                 lblLetterGradeShow.Text = numericGrade.ToString();
-            }
-            else
-            {
-                MessageBox.Show("Please enter a valid numeric grade.");
-            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)

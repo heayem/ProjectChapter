@@ -36,11 +36,11 @@ namespace ShippingAndHandling
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtOrderTotal = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lblShippingCost = new System.Windows.Forms.Label();
-            this.lblSaleTax = new System.Windows.Forms.Label();
-            this.txtGrandeTotal = new System.Windows.Forms.Label();
+            this.txtOrdTotal = new System.Windows.Forms.TextBox();
+            this.textCustomerType = new System.Windows.Forms.TextBox();
+            this.lblShippingCost = new System.Windows.Forms.TextBox();
+            this.lblSaleTax = new System.Windows.Forms.TextBox();
+            this.lblGrandeTotal = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnCalculateGrandTotal
@@ -48,10 +48,9 @@ namespace ShippingAndHandling
             this.btnCalculateGrandTotal.Location = new System.Drawing.Point(145, 220);
             this.btnCalculateGrandTotal.Name = "btnCalculateGrandTotal";
             this.btnCalculateGrandTotal.Size = new System.Drawing.Size(76, 49);
-            this.btnCalculateGrandTotal.TabIndex = 2;
+            this.btnCalculateGrandTotal.TabIndex = 3;
             this.btnCalculateGrandTotal.Text = "&Calculate Grand Total";
             this.btnCalculateGrandTotal.UseVisualStyleBackColor = true;
-            this.btnCalculateGrandTotal.Click += new System.EventHandler(this.btnCalculateGrandTotal_Click);
             // 
             // btnExit
             // 
@@ -59,10 +58,9 @@ namespace ShippingAndHandling
             this.btnExit.Location = new System.Drawing.Point(260, 220);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(76, 49);
-            this.btnExit.TabIndex = 3;
+            this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label1
             // 
@@ -70,17 +68,19 @@ namespace ShippingAndHandling
             this.label1.Location = new System.Drawing.Point(58, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 13);
-            this.label1.TabIndex = 2;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Order Total";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(58, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 13);
+            this.label2.Size = new System.Drawing.Size(241, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Customer Type (P= Preferred N = None-Preferred";
+            this.label2.Text = "Customer Type (P= Preferred N = None-Preferred)";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label3
             // 
@@ -90,6 +90,7 @@ namespace ShippingAndHandling
             this.label3.Size = new System.Drawing.Size(210, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Shipping Cost (Free for Preferred Customer)";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
             // 
@@ -99,6 +100,7 @@ namespace ShippingAndHandling
             this.label4.Size = new System.Drawing.Size(72, 13);
             this.label4.TabIndex = 5;
             this.label4.Text = "Sale Tax (7%)";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label5
             // 
@@ -108,49 +110,53 @@ namespace ShippingAndHandling
             this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Grande Total";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // txtOrderTotal
+            // txtOrdTotal
             // 
-            this.txtOrderTotal.Location = new System.Drawing.Point(318, 44);
-            this.txtOrderTotal.Name = "txtOrderTotal";
-            this.txtOrderTotal.Size = new System.Drawing.Size(100, 20);
-            this.txtOrderTotal.TabIndex = 0;
-            this.txtOrderTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtOrdTotal.Location = new System.Drawing.Point(318, 44);
+            this.txtOrdTotal.Name = "txtOrdTotal";
+            this.txtOrdTotal.Size = new System.Drawing.Size(100, 20);
+            this.txtOrdTotal.TabIndex = 1;
+            this.txtOrdTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox2
+            // textCustomerType
             // 
-            this.textBox2.Location = new System.Drawing.Point(318, 77);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textCustomerType.Location = new System.Drawing.Point(318, 77);
+            this.textCustomerType.Name = "textCustomerType";
+            this.textCustomerType.Size = new System.Drawing.Size(100, 20);
+            this.textCustomerType.TabIndex = 2;
+            this.textCustomerType.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblShippingCost
             // 
-            this.lblShippingCost.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblShippingCost.Location = new System.Drawing.Point(315, 111);
+            this.lblShippingCost.Location = new System.Drawing.Point(318, 115);
             this.lblShippingCost.Name = "lblShippingCost";
-            this.lblShippingCost.Size = new System.Drawing.Size(103, 20);
-            this.lblShippingCost.TabIndex = 9;
-            this.lblShippingCost.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblShippingCost.ReadOnly = true;
+            this.lblShippingCost.Size = new System.Drawing.Size(100, 20);
+            this.lblShippingCost.TabIndex = 12;
+            this.lblShippingCost.TabStop = false;
+            this.lblShippingCost.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblSaleTax
             // 
-            this.lblSaleTax.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblSaleTax.Location = new System.Drawing.Point(315, 146);
+            this.lblSaleTax.Location = new System.Drawing.Point(318, 148);
             this.lblSaleTax.Name = "lblSaleTax";
-            this.lblSaleTax.Size = new System.Drawing.Size(103, 22);
-            this.lblSaleTax.TabIndex = 10;
-            this.lblSaleTax.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblSaleTax.ReadOnly = true;
+            this.lblSaleTax.Size = new System.Drawing.Size(100, 20);
+            this.lblSaleTax.TabIndex = 13;
+            this.lblSaleTax.TabStop = false;
+            this.lblSaleTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // txtGrandeTotal
+            // lblGrandeTotal
             // 
-            this.txtGrandeTotal.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.txtGrandeTotal.Location = new System.Drawing.Point(315, 181);
-            this.txtGrandeTotal.Name = "txtGrandeTotal";
-            this.txtGrandeTotal.Size = new System.Drawing.Size(103, 18);
-            this.txtGrandeTotal.TabIndex = 11;
-            this.txtGrandeTotal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGrandeTotal.Location = new System.Drawing.Point(318, 183);
+            this.lblGrandeTotal.Name = "lblGrandeTotal";
+            this.lblGrandeTotal.ReadOnly = true;
+            this.lblGrandeTotal.Size = new System.Drawing.Size(100, 20);
+            this.lblGrandeTotal.TabIndex = 14;
+            this.lblGrandeTotal.TabStop = false;
+            this.lblGrandeTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // frmShippingAndHandling
             // 
@@ -159,11 +165,11 @@ namespace ShippingAndHandling
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(480, 309);
-            this.Controls.Add(this.txtGrandeTotal);
+            this.Controls.Add(this.lblGrandeTotal);
             this.Controls.Add(this.lblSaleTax);
             this.Controls.Add(this.lblShippingCost);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.txtOrderTotal);
+            this.Controls.Add(this.textCustomerType);
+            this.Controls.Add(this.txtOrdTotal);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -188,11 +194,11 @@ namespace ShippingAndHandling
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtOrderTotal;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label lblShippingCost;
-        private System.Windows.Forms.Label lblSaleTax;
-        private System.Windows.Forms.Label txtGrandeTotal;
+        private System.Windows.Forms.TextBox txtOrdTotal;
+        private System.Windows.Forms.TextBox textCustomerType;
+        private System.Windows.Forms.TextBox lblShippingCost;
+        private System.Windows.Forms.TextBox lblSaleTax;
+        private System.Windows.Forms.TextBox lblGrandeTotal;
     }
 }
 

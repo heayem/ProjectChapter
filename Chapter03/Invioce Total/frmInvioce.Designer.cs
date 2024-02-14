@@ -33,10 +33,10 @@ namespace Invioce_Total
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.TxtTotal = new System.Windows.Forms.TextBox();
-            this.TxtDiscountAmount = new System.Windows.Forms.TextBox();
-            this.TxtDiscountPercent = new System.Windows.Forms.TextBox();
-            this.TxtSubtotal = new System.Windows.Forms.TextBox();
+            this.lblTotal = new System.Windows.Forms.TextBox();
+            this.lblDiscountAmount = new System.Windows.Forms.TextBox();
+            this.lblDiscountPercent = new System.Windows.Forms.TextBox();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -74,59 +74,59 @@ namespace Invioce_Total
             this.label5.Location = new System.Drawing.Point(70, 47);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 13);
-            this.label5.TabIndex = 35;
+            this.label5.TabIndex = 0;
             this.label5.Text = "&Subtotal:";
             // 
-            // TxtTotal
+            // lblTotal
             // 
-            this.TxtTotal.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TxtTotal.Location = new System.Drawing.Point(174, 145);
-            this.TxtTotal.Name = "TxtTotal";
-            this.TxtTotal.ReadOnly = true;
-            this.TxtTotal.ShortcutsEnabled = false;
-            this.TxtTotal.Size = new System.Drawing.Size(107, 20);
-            this.TxtTotal.TabIndex = 6;
-            this.TxtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lblTotal.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblTotal.Location = new System.Drawing.Point(174, 145);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.ReadOnly = true;
+            this.lblTotal.ShortcutsEnabled = false;
+            this.lblTotal.Size = new System.Drawing.Size(107, 20);
+            this.lblTotal.TabIndex = 6;
+            this.lblTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // TxtDiscountAmount
+            // lblDiscountAmount
             // 
-            this.TxtDiscountAmount.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TxtDiscountAmount.Location = new System.Drawing.Point(174, 112);
-            this.TxtDiscountAmount.Name = "TxtDiscountAmount";
-            this.TxtDiscountAmount.ReadOnly = true;
-            this.TxtDiscountAmount.ShortcutsEnabled = false;
-            this.TxtDiscountAmount.Size = new System.Drawing.Size(107, 20);
-            this.TxtDiscountAmount.TabIndex = 5;
-            this.TxtDiscountAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lblDiscountAmount.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblDiscountAmount.Location = new System.Drawing.Point(174, 112);
+            this.lblDiscountAmount.Name = "lblDiscountAmount";
+            this.lblDiscountAmount.ReadOnly = true;
+            this.lblDiscountAmount.ShortcutsEnabled = false;
+            this.lblDiscountAmount.Size = new System.Drawing.Size(107, 20);
+            this.lblDiscountAmount.TabIndex = 5;
+            this.lblDiscountAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // TxtDiscountPercent
+            // lblDiscountPercent
             // 
-            this.TxtDiscountPercent.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TxtDiscountPercent.Location = new System.Drawing.Point(174, 73);
-            this.TxtDiscountPercent.Name = "TxtDiscountPercent";
-            this.TxtDiscountPercent.ReadOnly = true;
-            this.TxtDiscountPercent.ShortcutsEnabled = false;
-            this.TxtDiscountPercent.Size = new System.Drawing.Size(107, 20);
-            this.TxtDiscountPercent.TabIndex = 4;
-            this.TxtDiscountPercent.Text = "10.0%";
-            this.TxtDiscountPercent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.lblDiscountPercent.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblDiscountPercent.Location = new System.Drawing.Point(174, 73);
+            this.lblDiscountPercent.Name = "lblDiscountPercent";
+            this.lblDiscountPercent.ReadOnly = true;
+            this.lblDiscountPercent.ShortcutsEnabled = false;
+            this.lblDiscountPercent.Size = new System.Drawing.Size(107, 20);
+            this.lblDiscountPercent.TabIndex = 4;
+            this.lblDiscountPercent.Text = "10.0%";
+            this.lblDiscountPercent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // TxtSubtotal
+            // txtSubtotal
             // 
-            this.TxtSubtotal.BackColor = System.Drawing.Color.White;
-            this.TxtSubtotal.Location = new System.Drawing.Point(174, 40);
-            this.TxtSubtotal.Name = "TxtSubtotal";
-            this.TxtSubtotal.ShortcutsEnabled = false;
-            this.TxtSubtotal.Size = new System.Drawing.Size(107, 20);
-            this.TxtSubtotal.TabIndex = 0;
-            this.TxtSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSubtotal.BackColor = System.Drawing.Color.White;
+            this.txtSubtotal.Location = new System.Drawing.Point(174, 40);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.ShortcutsEnabled = false;
+            this.txtSubtotal.Size = new System.Drawing.Size(107, 20);
+            this.txtSubtotal.TabIndex = 1;
+            this.txtSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnCalculate
             // 
             this.btnCalculate.Location = new System.Drawing.Point(73, 203);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(101, 35);
-            this.btnCalculate.TabIndex = 1;
+            this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
@@ -137,7 +137,7 @@ namespace Invioce_Total
             this.btnExit.Location = new System.Drawing.Point(180, 203);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(101, 35);
-            this.btnExit.TabIndex = 2;
+            this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -153,10 +153,10 @@ namespace Invioce_Total
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.TxtTotal);
-            this.Controls.Add(this.TxtDiscountAmount);
-            this.Controls.Add(this.TxtDiscountPercent);
-            this.Controls.Add(this.TxtSubtotal);
+            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.lblDiscountAmount);
+            this.Controls.Add(this.lblDiscountPercent);
+            this.Controls.Add(this.txtSubtotal);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.btnExit);
             this.Name = "frmInvioce";
@@ -174,10 +174,10 @@ namespace Invioce_Total
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox TxtTotal;
-        private System.Windows.Forms.TextBox TxtDiscountAmount;
-        private System.Windows.Forms.TextBox TxtDiscountPercent;
-        private System.Windows.Forms.TextBox TxtSubtotal;
+        private System.Windows.Forms.TextBox lblTotal;
+        private System.Windows.Forms.TextBox lblDiscountAmount;
+        private System.Windows.Forms.TextBox lblDiscountPercent;
+        private System.Windows.Forms.TextBox txtSubtotal;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Button btnExit;
     }

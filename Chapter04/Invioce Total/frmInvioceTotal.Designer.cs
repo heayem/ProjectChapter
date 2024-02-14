@@ -1,7 +1,7 @@
 ﻿
 namespace Invioce_Total
 {
-    partial class frmInvioce
+    partial class frmInvioceTotal
     {
         /// <summary>
         /// Required designer variable.
@@ -240,7 +240,7 @@ namespace Invioce_Total
             this.txtTotalOfInvoices.TabIndex = 42;
             this.txtTotalOfInvoices.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // frmInvioce
+            // frmInvioceTotal
             // 
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,9 +266,9 @@ namespace Invioce_Total
             this.Controls.Add(this.txtEnterSubtotal);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.btnExit);
-            this.Name = "frmInvioce";
+            this.Name = "frmInvioceTotal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Invoice";
+            this.Text = "Invoice Total ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

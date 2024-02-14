@@ -12,21 +12,14 @@ namespace StudentPopulation
 
         private void btnProjectStudentPopulation_Click(object sender, EventArgs e)
         {
-            // Validation
-            if (!decimal.TryParse(txtNumberOfStudentsToday.Text, out decimal numberOfStudentsToday)
-                || !decimal.TryParse(txtAnnualGrowthRate.Text, out decimal annualGrowthRate)
-                || !decimal.TryParse(txtNumberOfYears.Text, out decimal numberOfYears))
-            {
-                MessageBox.Show("Invalid input. Please enter valid numeric values.");
-                return;
-            }
+            decimal numberOfStudentsToday = Convert.ToDecimal(txtNumberOfStudentsToday.Text);
+            decimal annualGrowthRate = Convert.ToDecimal(txtAnnualGrowthRate.Text);
+            decimal numberOfYears = Convert.ToDecimal(txtNumberOfYears.Text);
 
-            // Calculation with compounding
-            decimal growthFactor = 1 + annualGrowthRate; // Compounding factor
-            numberOfStudentsToday *= (decimal)Math.Pow((double)growthFactor, (double)numberOfYears);
+            for (int year = 1; year <= numberOfYears; year++)
+                numberOfStudentsToday = Math.Round(numberOfStudentsToday * (1 + annualGrowthRate));
 
-            // Display result
-            lblProjectedNumberOfStudents.Text = numberOfStudentsToday.ToString("F2"); // Display with 2 decimal places
+            lblProjectedNumberOfStudents.Text = numberOfStudentsToday.ToString("N0");
         }
 
         private void btnExit_Click(object sender, EventArgs e)

@@ -16,7 +16,7 @@ namespace Invioce_Total
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmInvioce());
+            Application.Run(new frmInvioceTotal());
         }
     }
 }
