@@ -55,7 +55,7 @@ namespace StudentPopulation
             this.txtAnnualGrowthRate.Location = new System.Drawing.Point(271, 91);
             this.txtAnnualGrowthRate.Name = "txtAnnualGrowthRate";
             this.txtAnnualGrowthRate.Size = new System.Drawing.Size(155, 20);
-            this.txtAnnualGrowthRate.TabIndex = 1;
+            this.txtAnnualGrowthRate.TabIndex = 2;
             this.txtAnnualGrowthRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtNumberOfStudentsToday
@@ -63,7 +63,7 @@ namespace StudentPopulation
             this.txtNumberOfStudentsToday.Location = new System.Drawing.Point(271, 58);
             this.txtNumberOfStudentsToday.Name = "txtNumberOfStudentsToday";
             this.txtNumberOfStudentsToday.Size = new System.Drawing.Size(155, 20);
-            this.txtNumberOfStudentsToday.TabIndex = 0;
+            this.txtNumberOfStudentsToday.TabIndex = 1;
             this.txtNumberOfStudentsToday.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
@@ -99,7 +99,7 @@ namespace StudentPopulation
             this.label1.Location = new System.Drawing.Point(66, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 13);
-            this.label1.TabIndex = 14;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Number of students today ";
             // 
             // btnExit
@@ -108,7 +108,7 @@ namespace StudentPopulation
             this.btnExit.Location = new System.Drawing.Point(268, 234);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(76, 49);
-            this.btnExit.TabIndex = 4;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -118,7 +118,7 @@ namespace StudentPopulation
             this.btnProjectStudentPopulation.Location = new System.Drawing.Point(153, 234);
             this.btnProjectStudentPopulation.Name = "btnProjectStudentPopulation";
             this.btnProjectStudentPopulation.Size = new System.Drawing.Size(76, 49);
-            this.btnProjectStudentPopulation.TabIndex = 3;
+            this.btnProjectStudentPopulation.TabIndex = 4;
             this.btnProjectStudentPopulation.Text = "&Project Student Population";
             this.btnProjectStudentPopulation.UseVisualStyleBackColor = true;
             this.btnProjectStudentPopulation.Click += new System.EventHandler(this.btnProjectStudentPopulation_Click);
@@ -128,14 +128,14 @@ namespace StudentPopulation
             this.txtNumberOfYears.Location = new System.Drawing.Point(271, 125);
             this.txtNumberOfYears.Name = "txtNumberOfYears";
             this.txtNumberOfYears.Size = new System.Drawing.Size(155, 20);
-            this.txtNumberOfYears.TabIndex = 2;
+            this.txtNumberOfYears.TabIndex = 3;
             this.txtNumberOfYears.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // frmStudentPopulation
             // 
             this.AcceptButton = this.btnProjectStudentPopulation;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(487, 333);
             this.Controls.Add(this.txtNumberOfYears);

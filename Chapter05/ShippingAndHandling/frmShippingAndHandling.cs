@@ -20,8 +20,7 @@ namespace ShippingAndHandling
         private void btnCalculateGrandTotal_Click(object sender, EventArgs e)
         {
 
-            if (decimal.TryParse(txtOrderTotal.Text, out decimal orderTotal))
-            {
+                decimal orderTotal = Convert.ToDecimal(txtOrderTotal.Text);
                 decimal tax;
                 String costumerType = txtComstumerType.Text;
                 decimal shipping=0m;
@@ -40,13 +39,8 @@ namespace ShippingAndHandling
                     lblSaleTax.Text = tax.ToString("C");
                     txtGrandeTotal.Text = ((orderTotal + shipping) + tax).ToString("C");
                 }
-
-            }
-            else
-            {
-                MessageBox.Show("Please enter a valid Order Total .");
-            }
         }
+
         private decimal calculateTax(decimal total,decimal tax)
         {
             return (total * tax);

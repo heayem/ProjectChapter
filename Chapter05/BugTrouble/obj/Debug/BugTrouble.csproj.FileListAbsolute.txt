@@ -1,0 +1,10 @@
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\bin\Debug\BugTrouble.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\bin\Debug\BugTrouble.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\bin\Debug\BugTrouble.pdb
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.Form1.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\BugTrouble\obj\Debug\BugTrouble.pdb

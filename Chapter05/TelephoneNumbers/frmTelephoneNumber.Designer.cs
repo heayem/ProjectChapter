@@ -1,7 +1,7 @@
 ﻿
 namespace TelephoneNumbers
 {
-    partial class Form1
+    partial class frmTelephoneNumber
     {
         /// <summary>
         /// Required designer variable.
@@ -92,7 +92,7 @@ namespace TelephoneNumbers
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // frmTelephoneNumber
             // 
             this.AcceptButton = this.btnConvert;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,7 +105,7 @@ namespace TelephoneNumbers
             this.Controls.Add(this.txtAlphanumeric);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmTelephoneNumber";
             this.Text = "Telephone Numbers";
             this.ResumeLayout(false);
             this.PerformLayout();

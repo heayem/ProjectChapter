@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TelephoneNumbers
 {
-    public partial class Form1 : Form
+    public partial class frmTelephoneNumber : Form
     {
-        public Form1()
+        public frmTelephoneNumber()
         {
             InitializeComponent();
         }

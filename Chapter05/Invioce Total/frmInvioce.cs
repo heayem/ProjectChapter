@@ -23,8 +23,8 @@ namespace Invioce_Total
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            string customerType = TxtCustomerType.Text;
-            decimal subtotal = Convert.ToDecimal(TxtSubtotal.Text);
+            string customerType = txtCustomerType.Text;
+            decimal subtotal = Convert.ToDecimal(txtSubtotal.Text);
             decimal disCountPercent =0m;
             if (customerType == "R") { 
              
@@ -43,10 +43,10 @@ namespace Invioce_Total
             }
             decimal disCountAmount = subtotal * disCountPercent;
             decimal invoiceTotal = subtotal - disCountAmount;
-            TxtDiscountPercent.Text = disCountPercent.ToString("p1");
-            TxtDiscountAmount.Text = disCountAmount.ToString("c");
-            TxtTotal.Text = invoiceTotal.ToString("c");
-            TxtTotal.Focus();
+            lblDiscountPercent.Text = disCountPercent.ToString("p1");
+            lblDiscountAmount.Text = disCountAmount.ToString("c");
+            lblTotal.Text = invoiceTotal.ToString("c");
+            lblTotal.Focus();
         }
 
         private void btnExit_Click(object sender, EventArgs e)

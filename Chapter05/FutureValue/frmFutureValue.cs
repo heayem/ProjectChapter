@@ -10,26 +10,28 @@ using System.Windows.Forms;
 
 namespace FutureValue
 {
-    public partial class Form1 : Form
+    public partial class frmFutureValue : Form
     {
-        public Form1()
+        public frmFutureValue()
         {
             InitializeComponent();
         }
+
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            decimal monthlyInvestment = Convert.ToDecimal(txtMonthlyInvestment.Text);
-            decimal yearlyInterestRate = Convert.ToDecimal(txtYearlyInterestRate.Text);
-            int years = Convert.ToInt32(txtNumberOfYears.Text);
+             decimal monthlyInvestment = Convert.ToDecimal(txtMonthlyInvestment.Text);
+             decimal yearlyInterestRate = Convert.ToDecimal(txtYearlyInterestRate.Text);
+             int years = Convert.ToInt32(txtNumberOfYears.Text);
 
-            int months = years * 12;
-            decimal monthlyInterestRate = yearlyInterestRate / 12 / 100;
-            decimal futureValue = 0m;
-
-            for (int i = 0; i < months; i++)
+             int months = years * 12;
+             decimal monthlyInterestRate = yearlyInterestRate / 12 / 100;
+             decimal futureValue = 0m;
+            int i = 0;
+            while (i < months) { 
                 futureValue = (futureValue + monthlyInvestment) * (1 + monthlyInterestRate);
-            
-            txtFutureValue.Text = futureValue.ToString("c");
+                i++;
+            }
+            lblFutureValue.Text = futureValue.ToString("c");
             txtMonthlyInvestment.Focus();
         }
 

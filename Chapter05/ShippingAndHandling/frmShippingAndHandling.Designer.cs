@@ -48,7 +48,7 @@ namespace ShippingAndHandling
             this.btnCalculateGrandTotal.Location = new System.Drawing.Point(145, 220);
             this.btnCalculateGrandTotal.Name = "btnCalculateGrandTotal";
             this.btnCalculateGrandTotal.Size = new System.Drawing.Size(76, 49);
-            this.btnCalculateGrandTotal.TabIndex = 2;
+            this.btnCalculateGrandTotal.TabIndex = 3;
             this.btnCalculateGrandTotal.Text = "&Calculate Grand Total";
             this.btnCalculateGrandTotal.UseVisualStyleBackColor = true;
             this.btnCalculateGrandTotal.Click += new System.EventHandler(this.btnCalculateGrandTotal_Click);
@@ -59,7 +59,7 @@ namespace ShippingAndHandling
             this.btnExit.Location = new System.Drawing.Point(260, 220);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(76, 49);
-            this.btnExit.TabIndex = 3;
+            this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -70,7 +70,7 @@ namespace ShippingAndHandling
             this.label1.Location = new System.Drawing.Point(58, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 13);
-            this.label1.TabIndex = 2;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Order Total";
             // 
             // label3
@@ -105,7 +105,7 @@ namespace ShippingAndHandling
             this.txtOrderTotal.Location = new System.Drawing.Point(318, 44);
             this.txtOrderTotal.Name = "txtOrderTotal";
             this.txtOrderTotal.Size = new System.Drawing.Size(100, 20);
-            this.txtOrderTotal.TabIndex = 0;
+            this.txtOrderTotal.TabIndex = 1;
             this.txtOrderTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // txtComstumerType
@@ -113,7 +113,7 @@ namespace ShippingAndHandling
             this.txtComstumerType.Location = new System.Drawing.Point(318, 77);
             this.txtComstumerType.Name = "txtComstumerType";
             this.txtComstumerType.Size = new System.Drawing.Size(100, 20);
-            this.txtComstumerType.TabIndex = 1;
+            this.txtComstumerType.TabIndex = 2;
             this.txtComstumerType.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // lblShippingCost
@@ -173,7 +173,7 @@ namespace ShippingAndHandling
             this.Controls.Add(this.btnCalculateGrandTotal);
             this.Name = "frmShippingAndHandling";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Shiping and Handling";
+            this.Text = "Shipping and Handling";
             this.ResumeLayout(false);
             this.PerformLayout();
 
