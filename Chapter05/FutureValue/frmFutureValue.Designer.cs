@@ -1,7 +1,7 @@
 ﻿
 namespace FutureValue
 {
-    partial class Form1
+    partial class frmFutureValue
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,7 @@ namespace FutureValue
             this.txtMonthlyInvestment = new System.Windows.Forms.TextBox();
             this.txtYearlyInterestRate = new System.Windows.Forms.TextBox();
             this.txtNumberOfYears = new System.Windows.Forms.TextBox();
-            this.txtFutureValue = new System.Windows.Forms.TextBox();
+            this.lblFutureValue = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -82,36 +82,37 @@ namespace FutureValue
             this.txtMonthlyInvestment.Location = new System.Drawing.Point(172, 40);
             this.txtMonthlyInvestment.Name = "txtMonthlyInvestment";
             this.txtMonthlyInvestment.Size = new System.Drawing.Size(100, 20);
-            this.txtMonthlyInvestment.TabIndex = 0;
+            this.txtMonthlyInvestment.TabIndex = 1;
             // 
             // txtYearlyInterestRate
             // 
             this.txtYearlyInterestRate.Location = new System.Drawing.Point(172, 92);
             this.txtYearlyInterestRate.Name = "txtYearlyInterestRate";
             this.txtYearlyInterestRate.Size = new System.Drawing.Size(100, 20);
-            this.txtYearlyInterestRate.TabIndex = 1;
+            this.txtYearlyInterestRate.TabIndex = 2;
             // 
             // txtNumberOfYears
             // 
             this.txtNumberOfYears.Location = new System.Drawing.Point(172, 140);
             this.txtNumberOfYears.Name = "txtNumberOfYears";
             this.txtNumberOfYears.Size = new System.Drawing.Size(100, 20);
-            this.txtNumberOfYears.TabIndex = 2;
+            this.txtNumberOfYears.TabIndex = 3;
             // 
-            // txtFutureValue
+            // lblFutureValue
             // 
-            this.txtFutureValue.Location = new System.Drawing.Point(172, 186);
-            this.txtFutureValue.Name = "txtFutureValue";
-            this.txtFutureValue.ReadOnly = true;
-            this.txtFutureValue.Size = new System.Drawing.Size(100, 20);
-            this.txtFutureValue.TabIndex = 7;
+            this.lblFutureValue.Location = new System.Drawing.Point(172, 186);
+            this.lblFutureValue.Name = "lblFutureValue";
+            this.lblFutureValue.ReadOnly = true;
+            this.lblFutureValue.Size = new System.Drawing.Size(100, 20);
+            this.lblFutureValue.TabIndex = 7;
             // 
             // btnCalculate
             // 
+            this.btnCalculate.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCalculate.Location = new System.Drawing.Point(69, 238);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(96, 23);
-            this.btnCalculate.TabIndex = 3;
+            this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
@@ -121,20 +122,21 @@ namespace FutureValue
             this.btnExit.Location = new System.Drawing.Point(176, 238);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(96, 23);
-            this.btnExit.TabIndex = 4;
+            this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // frmFutureValue
             // 
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnCalculate;
             this.ClientSize = new System.Drawing.Size(349, 280);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCalculate);
-            this.Controls.Add(this.txtFutureValue);
+            this.Controls.Add(this.lblFutureValue);
             this.Controls.Add(this.txtNumberOfYears);
             this.Controls.Add(this.txtYearlyInterestRate);
             this.Controls.Add(this.txtMonthlyInvestment);
@@ -142,7 +144,7 @@ namespace FutureValue
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lable1);
-            this.Name = "Form1";
+            this.Name = "frmFutureValue";
             this.Text = "Future Value";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -158,7 +160,7 @@ namespace FutureValue
         private System.Windows.Forms.TextBox txtMonthlyInvestment;
         private System.Windows.Forms.TextBox txtYearlyInterestRate;
         private System.Windows.Forms.TextBox txtNumberOfYears;
-        private System.Windows.Forms.TextBox txtFutureValue;
+        private System.Windows.Forms.TextBox lblFutureValue;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Button btnExit;
     }

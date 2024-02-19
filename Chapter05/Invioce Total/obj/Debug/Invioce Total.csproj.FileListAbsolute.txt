@@ -38,3 +38,13 @@ E:\Year3\.NET\HomeWrokLesson\Chapter 05\Invioce Total\obj\Debug\Invioce Total.cs
 E:\Year3\.NET\HomeWrokLesson\Chapter 05\Invioce Total\obj\Debug\Invioce Total.csproj.CoreCompileInputs.cache
 E:\Year3\.NET\HomeWrokLesson\Chapter 05\Invioce Total\obj\Debug\Invioce Total.exe
 E:\Year3\.NET\HomeWrokLesson\Chapter 05\Invioce Total\obj\Debug\Invioce Total.pdb
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\bin\Debug\Invioce Total.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\bin\Debug\Invioce Total.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\bin\Debug\Invioce Total.pdb
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce Total.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce_Total.frmInvioce.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce_Total.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce Total.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce Total.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce Total.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\Invioce Total\obj\Debug\Invioce Total.pdb
