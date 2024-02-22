@@ -1,0 +1,11 @@
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\bin\Debug\Payment.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\bin\Debug\Payment.exe
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\bin\Debug\Payment.pdb
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.frmPayment.resources
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.exe
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.pdb
+E:\Year3\.NET\ProjectChapter\Chapter10\Payment\obj\Debug\Payment.frmcustomer.resources
