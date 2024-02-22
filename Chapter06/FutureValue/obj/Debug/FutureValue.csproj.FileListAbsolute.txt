@@ -1,0 +1,30 @@
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\bin\Debug\FutureValue.exe.config
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\bin\Debug\FutureValue.exe
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\bin\Debug\FutureValue.pdb
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.csproj.AssemblyReference.cache
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.cache
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.exe
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.pdb
+E:\Year3\.NET\HomeWrokLesson\Chapter 05\FutureValue\obj\Debug\FutureValue.frmFutureValue.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\bin\Debug\FutureValue.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\bin\Debug\FutureValue.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\bin\Debug\FutureValue.pdb
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.frmFutureValue.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.exe
+E:\Year3\.NET\ProjectChapter\Chapter05\FutureValue\obj\Debug\FutureValue.pdb
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\bin\Debug\FutureValue.exe.config
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\bin\Debug\FutureValue.exe
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\bin\Debug\FutureValue.pdb
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.csproj.AssemblyReference.cache
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.frmFutureValue.resources
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.cache
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.csproj.CoreCompileInputs.cache
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.exe
+E:\Year3\.NET\ProjectChapter\Chapter06\FutureValue\obj\Debug\FutureValue.pdb
